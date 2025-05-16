@@ -3,7 +3,6 @@ on: [push]
 jobs:
   run-shell-commaand:
     runs-on: ubuntu-latest
-    name: Run a shell command
     steps:
       -name: echo a string
       run: echo "Hello devsecops"
